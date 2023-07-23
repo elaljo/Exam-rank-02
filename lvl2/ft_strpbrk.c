@@ -29,7 +29,7 @@ int main()
 	const char *charset;
 
 	s1 = "mohamed";
-	charset = "med";
+	charset = "zgh";
 
 	printf("%s\n", ft_strpbrk(s1, charset));
 	printf("%s\n", strpbrk(s1, charset));

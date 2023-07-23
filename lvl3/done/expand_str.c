@@ -15,11 +15,7 @@ int main(int argc, char *argv[])
 			if (s[i] == ' ')
 			{
 				if (s[i + 1] != ' ' && s[i + 1])
-				{
-					write(1, " ", 1);
-					write(1, " ", 1);
-					write(1, " ", 1);
-				}
+					write(1, " ", 3);
 			}
 			else if (s[i] != ' ' && s[i])
 				write(1, &s[i], 1);
